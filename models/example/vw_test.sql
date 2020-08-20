@@ -3,4 +3,3 @@
 
 select *
 from {{ ref('test') }}
-where id = 1
