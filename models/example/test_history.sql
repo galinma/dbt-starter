@@ -11,14 +11,16 @@
 
 with source_data as (
 
-    select 1 as id
-    union all
-    select null as id
+select id, name, CURRENT_TIMESTAMP from test
 
 )
 
 select *
 from source_data
+
+union all
+
+select * from test_history
 
 /*
     Uncomment the line below to remove records with null `id` values
