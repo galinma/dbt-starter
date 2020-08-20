@@ -12,7 +12,7 @@
 with source_data as (
 
 select *
-from {{ source('CA_businesses', 'CA_businesses') }}
+from {{ source('MAIN', 'CA_businesses') }}
 
 )
 
