@@ -12,7 +12,7 @@
 with source_data as (
 
 
-select '1' as ID, 'John' as Name, CURRENT_TIMESTAMP 
+select * from CA_businesses
 
 )
 

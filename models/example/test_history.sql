@@ -11,7 +11,7 @@
 
 with source_data as (
 
-select id, name, CURRENT_TIMESTAMP from test
+select top 10 *, CURRENT_TIMESTAMP as modify_dt from CA_businesses
 
 )
 
