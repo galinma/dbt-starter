@@ -1,11 +1,7 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: CA_businesses
     tables:
-      - name: orders
-      - name: customers
-
-  - name: stripe
-    tables:
-      - name: payments
+      - name: CA_businesses
+      - name: CA_businesses_2
