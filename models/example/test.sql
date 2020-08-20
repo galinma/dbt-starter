@@ -12,7 +12,7 @@
 with source_data as (
 
 
-select '1', 'John', CURRENT_TIMESTAMP from test
+select ID, Name, CURRENT_TIMESTAMP from test
 
 )
 
