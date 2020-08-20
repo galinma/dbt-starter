@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: CA_businesses
+  - name: MAIN
     tables:
       - name: CA_businesses
       - name: CA_businesses_2
