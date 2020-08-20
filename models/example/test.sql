@@ -11,11 +11,8 @@
 
 with source_data as (
 
-<<<<<<< HEAD
-select '1', 'John', CURRENT_TIMESTAMP
-=======
-select '1, 'John', CURRENT_TIMESTAMP
->>>>>>> 55d420af640f88cace44468cd7374c360e7dbf9c
+
+select '1', 'John', CURRENT_TIMESTAMP from test
 
 )
 
